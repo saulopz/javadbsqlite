@@ -1,35 +1,31 @@
-# USO
+# Utilização
 
-## DOWNLOAD E INSTALAÇÃO DO SQLITE
+## Download e Instalação do SQLite
 
 ### Windows
 
-https://www.sqlite.org/download.html
+<https://www.sqlite.org/download.html>
 
 ### Linux Debian/Ubuntu
 
 sudo apt-get install sqlite
 
-## DOWNLOAD DRIVER
+## Download do Driver
 
-https://github.com/xerial/sqlite-jdbc
+<https://github.com/xerial/sqlite-jdbc>
 
 É importante usar a mesma versão do sqlite e do driver.
 
-## IMPORTAR
+## Importar
 
 import java.sql.*;
 
-## COMPILAR
+## Compilar
 
 javac Programa.java
 
-## EXECUTAR
-
-### Windows
+## Executar
 
 java -classpath ".;sqlite-jdbc-(VERSION).jar" Programa
 
-### Linux
-
-java -classpath ".:sqlite-jdbc-(VERSION).jar" Programa
+Substitua (VERSION) pela versão do driver que você fizer download.
