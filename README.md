@@ -26,6 +26,6 @@ javac Programa.java
 
 ## Executar
 
-java -classpath ".;sqlite-jdbc-(VERSION).jar" Programa
+java -classpath .;sqlite-jdbc-(VERSION).jar Programa
 
 Substitua (VERSION) pela versão do driver que você fizer download.
